@@ -32,12 +32,16 @@
                 class="com.bladyzamosc.pluginek.SimpleBladyAction"
 
                 text="Blady tools " description="Simple Blady action">
-            <add-to-group group-id="EditorPopupMenu" anchor="first"/>
             <keyboard-shortcut first-keystroke="shift B"
                                second-keystroke="L"
                                keymap="$default"/>
-            <mouse-shortcut keymap="$default"
-                            keystroke="control button3 doubleClick"/>
+        </action>
+        <action id="com.bladyzamosc.pluginek.OpenWBBladyAction"
+                class="com.bladyzamosc.pluginek.OpenWBBladyAction"
+                text="Blady tools " description="Simple Blady action">
+            <keyboard-shortcut first-keystroke="shift B"
+                               second-keystroke="P"
+                               keymap="$default"/>
         </action>
     </actions>
 </idea-plugin>
